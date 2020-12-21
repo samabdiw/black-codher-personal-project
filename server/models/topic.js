@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-const userSchema = new Schema({
+const topicSchema = new Schema({
   title: String,
   header: String,
   paragraph: String,
@@ -10,4 +10,4 @@ const userSchema = new Schema({
   picture: String
 });
 
-mongoose.model('users', userSchema);
+mongoose.model('topics', topicSchema);

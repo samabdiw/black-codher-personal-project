@@ -1,30 +1,32 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // SERVICES
-import userService from './services/userService';
+import topicService from './services/topicService';
 
 function App() {
-  const [users, setusers] = useState(null);
+  const [topics, setTopics] = useState(null);
 
   useEffect(() => {
-    if (!users) {
-      getusers();
+    if (!topics) {
+      getTopics();
     }
   });
 
-  const getusers = async () => {
-    let res = await userService.getAll();
-    setusers(res);
+  const getTopics = async () => {
+    let res = await topicService.getAll();
+    setTopics(res);
   };
 
-  const renderUser = (user) => {
+  const renderTopic = (topic) => {
     return (
-      <li key={user._id}>
+      <li key={topic._id}>
         <h3>
-          {`${user.first_name} 
-          ${user.last_name}`}
+          {topic.title} 
         </h3>
-        <p>{user.location}</p>
+        <p>{topic.header}</p>
+          
+        <p>{topic.paragraph}{topic.paragraph2}{topic.paragraph3}</p>
       </li>
     );
   };
@@ -32,10 +34,10 @@ function App() {
   return (
     <div>
       <ul>
-        {users && users.length > 0 ? (
-          users.map((user) => renderUser(user))
+        {topics && topics.length > 0 ? (
+          topics.map((topic) => renderTopic(topic))
         ) : (
-          <p>No users found</p>
+          <p>No TOPICS found</p>
         )}
       </ul>
     </div>

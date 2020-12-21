@@ -1,22 +1,96 @@
 [
+
     {
-        "first_name": "Gary",
-        "last_name": "McPherson ",
-        "location": "London"
+        "title": "Atoms, elements and compounds",
+        "header": "Chemical symbols",
+        "paragraph": 
+  
+        "Chemists use symbols and formulae to represent elements and compounds. Word equations and balanced chemical equations represent the changes that happen in chemical reactions.",
+      
+        "paragraph2": 
+        
+        "All substances are made from tiny particles called atoms. An atom is the smallest part of an element that can exist. Atoms of each element are represented by their own chemical symbol. A chemical symbol; consists of one or two letters and the first letter is always capital.",
+  
+        "paragraph3":
+  
+        "For example the symbol O represents an atom of oxygen, and Na represents an atom of sodium. You must write the chemical symbol of sodium as Na, not as NA, na or nA.",
+      
+        "picture": "https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/Periodic-Table-of-the-Elements-1553356140.jpg"
+  
+      },
+    {
+        "title": "Atomic Structure",
+        "header": "Early ideas about atoms",
+        "paragraph": 
+  
+        "Ideas about atoms have changed over time. Scientists developed new atomic models as they gathered new experimental evidence.",
+      
+        "paragraph2": 
+        
+        "John Dalton published his ideas about atoms in 1803. He thought that all matter was made of tiny particles called atoms, which he imagined as tiny spheres that could not be divided.",
+  
+        "paragraph3":
+  
+        "Nearly 100 years later, J J Thomson carried out experiments and discovered the electron. This led him to suggest the plum pudding model of the atom. In this model, the atom is a ball of positive charge with negative electrons embedded in it - like currants in a Christmas pudding.",
+      
+        "picture": "https://images.pexels.com/photos/6129881/pexels-photo-6129881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  
+      },
+
+    {
+      "title": "The periodic table",
+      "header": "Mendeleev's periodic table",
+      "paragraph": 
+
+      "Before discovering protons, neutrons and electrons, scientists tried to classify the elements by arranging them in order of their atomic weights. The atomic weight of an element is equivalent to what we now call its relative atomic mass.",
+    
+      "paragraph2": 
+      
+      "Early periodic tables were incomplete, since many elements were unknown. Also, some elements were placed in groups with elements that were not similar to them.",
+
+      "paragraph3":
+
+      "Dmitri Mendeleev was a Russian chemist. He wrote chemistry books and was looking for ways to organise the known elements. He published his first periodic table of the elements in 1869. In it, he arranged the elements in order of increasing atomic weights. He also took into account the properties of the elements and their compounds.",
+    
+      "picture": "https://images.pexels.com/photos/3735778/pexels-photo-3735778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+
     },
+
     {
-        "first_name": "Charlene",
-        "last_name": "Hunter ",
-        "location": "London"
-    },
-    {
-        "first_name": "Tanya",
-        "last_name": "Powell ",
-        "location": "London"
-    },
-    {
-        "first_name": "Oyin",
-        "last_name": "Adebayo ",
-        "location": "Birmingham"
-    }
+        "title": "Transition metals",
+        "header": "Physical properties of transition elements",
+        "paragraph": 
+  
+        "Most metals are transition metals. They include iron, copper and chromium. The transition elements are in the central part of the periodic table.",
+      
+        "paragraph2": 
+        
+        "The transition elements share some physical properties with all metals; they conduct electricity in the solid and liquid states and they are shiny when freshly cut",
+  
+        "paragraph3":
+
+        "Some properties of transition elements are different from those of the metals in group 1. Compared to other metals, most transition metals have;higher melting points, higher densities, greater strength and greater hardness",
+      
+        "picture": "https://www.chemistrylearner.com/wp-content/uploads/2019/11/Transition-Metals-on-the-Periodic-Table.jpg"
+  
+      },
+
+      {
+        "title": "Mixtures",
+        "header": "Pure substances and mixtures",
+        "paragraph": 
+  
+        "There are different ways to separate mixtures, such as filtration, crystallisation, simple distillation, fractional distillation and chromatography. The method chosen depends on the type of mixture.",
+      
+        "paragraph2": 
+        
+        "The word 'pure' is used in chemistry in a different way from its everyday meaning. For example, shops sell cartons labelled as ‘pure' orange juice. The label means that the contents are just orange juice, with no other substances added. However, the juice is not pure in the chemical sense, because it contains different substances mixed together.",
+  
+        "paragraph3":
+
+        "Mixtures can be separated by physical processes. These processes do not involve chemical reactions, and no new substances are made.",
+      
+        "picture": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  
+      }
 ]
