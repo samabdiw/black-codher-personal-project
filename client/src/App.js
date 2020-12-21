@@ -1,47 +1,56 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Learn from './pages/Learn';
+
 
 // SERVICES
 import topicService from './services/topicService';
 
+
 function App() {
-  const [topics, setTopics] = useState(null);
+  const [topics, setTopics] = useState([]);
 
   useEffect(() => {
-    if (!topics) {
-      getTopics();
-    }
-  });
+    async function getTopics () {
+      let res = await topicService.getAll();
+      setTopics(res);
+    };
+    getTopics()
+  },[]);
 
-  const getTopics = async () => {
-    let res = await topicService.getAll();
-    setTopics(res);
-  };
-
-  const renderTopic = (topic) => {
-    return (
-      <li key={topic._id}>
-        <h3>
-          {topic.title} 
-        </h3>
-        <p>{topic.header}</p>
-          
-        <p>{topic.paragraph}{topic.paragraph2}{topic.paragraph3}</p>
-      </li>
-    );
-  };
-
-  return (
+  //  errot not showing titles of topics when called
+  // console.log(topics.filter(topic => topic.title))
+  return (<Router>
     <div>
-      <ul>
-        {topics && topics.length > 0 ? (
-          topics.map((topic) => renderTopic(topic))
-        ) : (
-          <p>No TOPICS found</p>
-        )}
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+
+          <li>
+            <Link to="/learn">Learn</Link>
+          </li>
+        </ul>
+      </nav>
+
+      {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+      <Switch>
+        
+        
+        <Route path="/learn">
+          <Learn titles={topics} />
+        </Route>
+        
+      </Switch>
     </div>
-  );
+  </Router>)
+
 }
+
+
+  
 
 export default App;
