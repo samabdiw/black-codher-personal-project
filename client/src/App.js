@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Learn from "./services/pages/Learn";
 import About from "./services/pages/About";
 import Home from "./services/pages/Home";
-import header from "./components/header";
 
 // SERVICES
 import topicService from "./services/topicService";

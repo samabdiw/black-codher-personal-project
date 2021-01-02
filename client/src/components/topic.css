@@ -1,0 +1,6 @@
+/* when changing css properties - ensure bottom=100px for centre alignment */
+
+.carousel-caption{
+    bottom: 100px;
+    
+}

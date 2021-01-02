@@ -15,7 +15,7 @@
   
         "For example the symbol O represents an atom of oxygen, and Na represents an atom of sodium. You must write the chemical symbol of sodium as Na, not as NA, na or nA.",
       
-        "picture": "https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/Periodic-Table-of-the-Elements-1553356140.jpg"
+        "paragraph4": "There are over 100 different elements. The names and symbols of the elements are shown in the periodic table. Elements are arranged into groups with similar properties. Groups are numbered from 1 to 7, then 0."
   
       },
     {
@@ -33,7 +33,7 @@
   
         "Nearly 100 years later, J J Thomson carried out experiments and discovered the electron. This led him to suggest the plum pudding model of the atom. In this model, the atom is a ball of positive charge with negative electrons embedded in it - like currants in a Christmas pudding.",
       
-        "picture": "https://images.pexels.com/photos/6129881/pexels-photo-6129881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        "paragraph4": "In 1909 Ernest Rutherford designed an experiment to test the plum pudding model. In the experiment, positively charged alpha particles were fired at thin gold foil. Most alpha particles went straight through the foil. But a few were scattered in different directions."
   
       },
 
@@ -52,7 +52,7 @@
 
       "Dmitri Mendeleev was a Russian chemist. He wrote chemistry books and was looking for ways to organise the known elements. He published his first periodic table of the elements in 1869. In it, he arranged the elements in order of increasing atomic weights. He also took into account the properties of the elements and their compounds.",
     
-      "picture": "https://images.pexels.com/photos/3735778/pexels-photo-3735778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "paragraph4": "Iodine has a lower atomic weight than tellurium. So iodine should be placed before tellurium in Mendeleev's periodic table. However, iodine has similar chemical properties to chlorine and bromine. To make iodine line up with chlorine and bromine in his table, Mendeleev swapped the positions of iodine and tellurium."
 
     },
 
@@ -71,7 +71,7 @@
 
         "Some properties of transition elements are different from those of the metals in group 1. Compared to other metals, most transition metals have;higher melting points, higher densities, greater strength and greater hardness",
       
-        "picture": "https://www.chemistrylearner.com/wp-content/uploads/2019/11/Transition-Metals-on-the-Periodic-Table.jpg"
+        "paragraph4": "Remember that these are typical properties – some transition metals may not show one or more of them. For example, mercury melts at just -39°C, so it is a liquid at room temperature."
   
       },
 
@@ -90,7 +90,7 @@
 
         "Mixtures can be separated by physical processes. These processes do not involve chemical reactions, and no new substances are made.",
       
-        "picture": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        "paragraph4": "Filtration is used to separate an insoluble solid from a liquid. It is useful for separating sand from a mixture of sand and water, or excess reactant from a reaction mixture."
   
       }
 ]
