@@ -7,7 +7,7 @@ const topicSchema = new Schema({
   paragraph: String,
   paragraph2: String,
   paragraph3: String,
-  picture: String
+  paragraph4: String
 });
 
 mongoose.model('topics', topicSchema);

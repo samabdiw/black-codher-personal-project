@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function About() {
     return (
+      
         <React.Fragment>
             <div className="about">
         <div className="hero-text">
@@ -15,5 +16,6 @@ function About() {
         </React.Fragment>
     )
 }
+
 
 export default About

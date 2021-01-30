@@ -1,16 +1,17 @@
-.App {
-  text-align: center;
+
+body {
+  margin: 20px;
+  padding: 0;
+  background: #a8ddf1;
+  font: normal .7em Tahoma, Arial, Helvetica, sans-serif;
+  color: #5D413A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  float: left;
+  width: 198px;
+  height: 110px;
+  background-image: linear-gradient(to right, #5717AE , #412EC4);
 }
 
 .App-header {

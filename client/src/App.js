@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from "react";
+import globalStyle from './globalStyles';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Learn from "./services/pages/Learn";
-import About from "./services/pages/About";
-import Home from "./services/pages/Home";
+import About from "./services/pages/About/About";
+import Home from "./services/pages/Homepage/Home";
+import Quiz from "./services/pages/Quiz";
+import { Navbar, Footer } from "./components";
+import ScrollToTop from './components/ScrollToTop';
+
+
 
 // SERVICES
 import topicService from "./services/topicService";
@@ -17,15 +23,21 @@ function App() {
       setTopics(res);
     }
     getTopics();
+
   }, []);
 
+
+  
   //  errot not showing titles of topics when called
   // console.log(topics.filter(topic => topic.title))
   return (
     
       <Router>
         <nav>
-          <ul>
+          <globalStyle />
+          <ScrollToTop />
+          <Navbar />
+          {/* <ul>
             <li>
               <Link to="/home">Home</Link>
               
@@ -37,15 +49,21 @@ function App() {
             <li>
               <Link to="/learn">Learn</Link>
             </li>
-          </ul>
+
+            <li>
+              <Link to="/quiz">Quiz</Link>
+            </li>
+          </ul> */}
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
+
+
+         {/* A <Switch> looks through its children <Route>s and
+           renders the first one that matches the current URL. */}
           
         
-        <Switch>
-        <Route
+         <Switch>
+         <Route
             exact
             path="/home"
             render={() => (
@@ -67,10 +85,22 @@ function App() {
           <Route path="/learn">
             <Learn topics={topics} />
           </Route>
+        
+        <Route
+            exact
+            path="/Quiz"
+            render={() => (
+              <React.Fragment>
+                <Quiz />
+              </React.Fragment>
+            )}
+          />
+
         </Switch>
-      
+        <Footer />
     </Router>
   );
 }
+
 
 export default App;
